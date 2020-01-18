@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding:0;
+    background:url(https://i.ytimg.com/vi/YUDes_czZ3M/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.signupbox{
+    width:400px;
+    height:725px;
+    background:url(https://i.pinimg.com/originals/a9/8c/ed/a98ceddaa2c0467bc4d31f95496a255f.jpg);
+    top:5%;
+    left:33%;
+    position: absolute;
+    box-sizing: border-box;
+    padding:70px 30px;
+    border-radius:20px;
+}
+h1{
+    margin:0;
+    padding:0 0 20px;
+    text-align:center;
+    font-size:30px;
+    font-family:courier;
+}
+h2{
+    margin:0;
+    padding:0 0 20px;
+    text-align:left;
+    font-size:20px;
+    font family:roboto;
+}
+.signupbox input[type="submit"]{
+    border:none;
+    outline:none;
+    height: 40px;
+    width:345px;
+    background:white ;
+    color:black;
+    font-size:18px;
+    border-radius: 20px;
+
+}
+.signupbox input[type="submit"]:hover
+{
+    text-align:center;
+    cursor: pointer;
+    background: #FA8072;
+    color:red;
+
+}
